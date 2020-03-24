@@ -1,0 +1,45 @@
+Clase 1: DOM, CSSOM, RENDER TREE Y EL PROCESO DE RENDERIZADO DE WEB
+
+1. Procesa HTML y construye el DOM
+2. Procesa CSS y construye el CSSOM
+3. DOM + CSSOM = RENDER TREE. 
+4. Ejecuta el diseño en el render tree
+5. Pinta el nodo en la pantalla
+
+Se debe tener cuidado al escribir HTML y CSS para no afectar 
+el performance o rendimiento de la pagina
+
+Selectores
+Universal --- *{
+Tipo      --- h1{
+Clase     --- .saludo{
+ID        --- #id{
+
+ANATOMIA ELEMENTO HTML - ATRIBUTOS, ANIDAMIENTO Y ELEMENTOS VACIOS
+
+Etiqueta apertura - Contenido - /Etiqueta cierre --- Todo hace el Elemento
+
+<h1 class = "saludo" >
+    atributo    valor
+
+Las imagenes son elementos vacios.
+
+<em > marca palabras en i
+
+Clase 2: TIPOS DE ERRORES
+Errores sintácticos: Son errores de tipado o escritura en el codigo que hace que
+no funcione
+
+Errores lógicos: La sintaxis es correcta pero el código no hace lo que debe,
+funciona de forma incorrecta.
+
+https://validator.w3.org
+
+Clase 3: ARQUITECTURAS DE CSS
+-OOCSS: CSS Orientado a Objetos
+.globalwidth{
+.header{
+.footer{   
+---Como el width se repite se usa la clase .globalwidth
+-BEM: Block Element Modifier
+
